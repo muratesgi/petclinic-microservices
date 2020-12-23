@@ -35,4 +35,4 @@
     args:
       cmd: "/tmp/aws/install"
       creates: /usr/local/bin/aws
-```
+---
