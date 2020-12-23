@@ -1,3 +1,4 @@
+```yaml
 ---
 - hosts: all
   tasks:
@@ -35,4 +36,4 @@
     args:
       cmd: "/tmp/aws/install"
       creates: /usr/local/bin/aws
----
+```
