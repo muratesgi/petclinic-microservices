@@ -2,7 +2,7 @@
 PATH="$PATH:/usr/local/bin"
 APP_NAME="Petclinic"
 CFN_KEYPAIR="murat-$APP_NAME-dev-${BUILD_NUMBER}.key"
-CFN_TEMPLATE="./infrastructure/dev-docker-swarm-infrastructure-cfn-template.yml"
+CFN_TEMPLATE="./infrastructure/docker-swarm-infrastructure-cfn-template.yml"
 AWS_REGION="us-east-1"
 export ANSIBLE_PRIVATE_KEY_FILE="${WORKSPACE}/${CFN_KEYPAIR}"
 export ANSIBLE_HOST_KEY_CHECKING=False
